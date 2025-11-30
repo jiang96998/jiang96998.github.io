@@ -83,6 +83,27 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/multi-language-al-folio/blog/";
               },
+            },{id: "dropdown-publicações",
+              title: "publicações",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/multi-language-al-folio/publications/";
+              },
+            },{id: "dropdown-projetos",
+              title: "projetos",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/multi-language-al-folio/projects/";
+              },
+            },{id: "dropdown-blog",
+              title: "blog",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/multi-language-al-folio/blog/";
+              },
             },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -440,16 +461,32 @@ ninja.data = [{
           description: "",
           section: "",handler: () => {
               window.location.href = "/multi-language-al-folio/books/en-us/the_godfather/";
+            },},{id: "books-the-godfather",
+          title: 'The Godfather',
+          description: "",
+          section: "",handler: () => {
+              window.location.href = "/multi-language-al-folio/books/pt-br/the_godfather/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
+          description: "",
+          section: "News",},{id: "news-um-anúncio-simples-em-uma-linha",
+          title: 'Um anúncio simples em uma linha.',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/multi-language-al-folio/news/en-us/announcement_2/";
+            },},{id: "news-um-anúncio-longo-com-detalhes",
+          title: 'Um anúncio longo com detalhes',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/multi-language-al-folio/news/pt-br/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "news-um-anúncio-simples-em-uma-linha-com-markdown-emoji-sparkles-smile",
+          title: 'Um anúncio simples em uma linha com Markdown emoji! :sparkles: :smile:',
           description: "",
           section: "News",},{id: "projects-project-7",
           title: 'project 7',
@@ -532,18 +569,11 @@ ninja.data = [{
           window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
-          id: 'lang-pt-br',
-          title: 'pt-br',
+          id: 'lang-zh',
+          title: 'zh',
           section: 'Languages',
           handler: () => {
-            window.location.href = "/multi-language-al-folio/pt-br" + updatedUrl;
-          },
-        },{
-          id: 'lang-fr-ca',
-          title: 'fr-ca',
-          section: 'Languages',
-          handler: () => {
-            window.location.href = "/multi-language-al-folio/fr-ca" + updatedUrl;
+            window.location.href = "/multi-language-al-folio/zh" + updatedUrl;
           },
         },{
       id: 'light-theme',
