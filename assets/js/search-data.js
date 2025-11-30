@@ -569,13 +569,6 @@ ninja.data = [{
           window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
-          id: 'lang-zh',
-          title: 'zh',
-          section: 'Languages',
-          handler: () => {
-            window.location.href = "/multi-language-al-folio/zh" + updatedUrl;
-          },
-        },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
