@@ -28,8 +28,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/multi-language-al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+
+
+Zhongliang Jiang joined the Department of Mechanical Engineering at the University of Hong Kong sicne September 2025. He received his Ph.D. in Computer Science from the Technical University of Munich in 2022, graduating with summa cum laude (the highest distinction), and his M.Eng. from Harbin Institute of Technology (Shenzhen) in 2017. From 2022 to 2025, he led the Robotics and Ultrasound Team (RobUSt) at the Computer-Aided Medical Procedures (CAMP) Lab, Technical University of Munich. Prior to that, he worked as a research assistant at the Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, from 2017 to 2018. His research has been published in leading venues such as IJRR, IEEE TRO, IEEE TMI, and Medical Image Analysis, and he has received a number of awards, including the MICCAI 2023 Best Paper Runner-up. He currently serves as an Associate Editor of ICRA (from 2024) and as the Lead Guest Editor for the IEEE Transactions on Robotics special issue on “Robot-Assisted Medical Imaging.”
+
+His research interest broadly spans AI and robotics for improving healthcare, such as robot learning, medical image analysis, medical robotic systems, computer vision in medical applications, and human–robot interaction. His long-term vision is: (1) to achieve superhuman performance in healthcare robotics, and (2) to make advanced healthcare universally accessible and affordable.”
