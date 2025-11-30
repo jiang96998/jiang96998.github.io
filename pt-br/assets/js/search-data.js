@@ -420,17 +420,6 @@ ninja.data = [{
             window.location.href = "/multi-language-al-folio/pt-br/blog/2015/math/";
           
         },
-      },{id: "post-uma-postagem-com-código",
-        
-          title: "uma postagem com código",
-        
-        description: "um exemplo de uma postagem em um blog com código",
-        section: "Postagens",
-        handler: () => {
-          
-            window.location.href = "/multi-language-al-folio/pt-br/blog/2015/code/";
-          
-        },
       },{id: "post-a-post-with-images",
         
           title: "a post with images",
