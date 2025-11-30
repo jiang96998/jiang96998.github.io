@@ -83,27 +83,6 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/multi-language-al-folio/blog/";
               },
-            },{id: "dropdown-publicações",
-              title: "publicações",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/multi-language-al-folio/publications/";
-              },
-            },{id: "dropdown-projetos",
-              title: "projetos",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/multi-language-al-folio/projects/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/multi-language-al-folio/blog/";
-              },
             },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -461,11 +440,6 @@ ninja.data = [{
           description: "",
           section: "",handler: () => {
               window.location.href = "/multi-language-al-folio/books/en-us/the_godfather/";
-            },},{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "",handler: () => {
-              window.location.href = "/multi-language-al-folio/books/pt-br/the_godfather/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
