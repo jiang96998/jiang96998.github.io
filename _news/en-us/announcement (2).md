@@ -6,4 +6,4 @@ related_posts: false
 title: "RA-L paper (ICRA2020)"
 ---
 
-1 paper accepted by IEEE RA-L (presented at ICRA2020)
+1 paper accepted by **_IEEE RA-L_** (presented at ICRA2020)

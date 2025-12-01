@@ -6,4 +6,4 @@ related_posts: false
 title: "1 paper accepted by IEEE TMRB"
 ---
 
-1 paper accepted by IEEE Transactions on Medical Robotics and Bionics
+1 paper accepted by **_IEEE Transactions on Medical Robotics and Bionics_**
