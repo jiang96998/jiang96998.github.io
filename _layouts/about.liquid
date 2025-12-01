@@ -39,7 +39,6 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-    
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
@@ -49,11 +48,12 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
-
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: #016fc9ff; font-weight: bold;">{{ site.data[site.active_lang].strings.latest_posts }}</a>
+        <a href="{{ '/blog/' | relative_url }}" style="color: #016fc9ff; font-weight: bold;">
+          {{- site.data[site.active_lang].strings.latest_posts -}}
+        </a>
       </h2>
       <hr style="margin-top: 0.5rem; margin-bottom: 1rem; border: 0; border-top: 1px solid #ccc;">
       {% include latest_posts.liquid %}
@@ -64,28 +64,39 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: #016fc9ff; font-weight: bold;">{{ site.data[site.active_lang].strings.selected_publications }}</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: #016fc9ff; font-weight: bold;">
+          {{- site.data[site.active_lang].strings.selected_publications -}}
+        </a>
         &nbsp;
         <a style="font-size: 0.75em;"> [ </a>
-        <a href="https://scholar.google.com/citations?user=X41OzcYAAAAJ&hl=en" style="font-size: 0.75em; font-weight: bold; color: #1501c9ff;" target="_blank">
-      Google Scholar  </a>
+        <a
+          href="https://scholar.google.com/citations?user=X41OzcYAAAAJ&hl=en"
+          style="font-size: 0.75em; font-weight: bold; color: #1501c9ff;"
+          target="_blank"
+        >
+          Google Scholar
+        </a>
         <a style="font-size: 0.75em;">] </a>
       </h2>
       <hr style="margin-top: 0.5rem; margin-bottom: 1rem; border: 0; border-top: 1px solid #ccc;">
       {% include selected_papers.liquid %}
     {% endif %}
 
-
-
-    {% if page.page_id == "about" %}
-      <h2><a style="color: #016fc9ff; font-weight: bold;">Professional Activities</a> </h2>
+    {% if page.page_id == 'about' %}
+      <h2><a style="color: #016fc9ff; font-weight: bold;">Professional Activities</a></h2>
       <hr style="margin-top: 0.5rem; margin-bottom: 1rem; border: 0; border-top: 1px solid #ccc;">
       <h3>Editor of journals and conferences</h3>
       <ul>
-        <li>Guest Editor of the special collection on <strong>“Robot-Assisted Medical Imaging”</strong> in <strong><em>IEEE Transactions on Robotics (T-RO)</em></strong></li>
+        <li>
+          Guest Editor of the special collection on <strong>“Robot-Assisted Medical Imaging”</strong> in
+          <strong><em>IEEE Transactions on Robotics (T-RO)</em></strong>
+        </li>
         <li>Associate Editor of <strong>IEEE International Conference on Robotics and Automation (ICRA 2024–2026)</strong></li>
         <li>Area Chair of <strong>International Conference on Information Processing in Computer-Assisted Interventions (IPCAI 2026)</strong></li>
-        <li>Guest Editor of the special issue <strong>“AI Technologies and Applications in Medical Robots”</strong> in <em>CAAI Transactions on Intelligence Technology</em></li>
+        <li>
+          Guest Editor of the special issue <strong>“AI Technologies and Applications in Medical Robots”</strong> in
+          <em>CAAI Transactions on Intelligence Technology</em>
+        </li>
       </ul>
 
       <h3>Organizer of international events</h3>
@@ -104,16 +115,18 @@ layout: default
 
       <h3>Reviewer of journals and conferences</h3>
       <ul>
-        <li>Journals: <em>Nature Machine Intelligence</em>, <em>Nature Communications</em>, <em>IEEE Transactions on Robotics (T-RO)</em>, <em>IEEE Reviews in Biomedical Engineering</em>, <em>T-ASE</em>, <em>T-MECH</em>, <em>T-IE</em>, <em>RA-L</em>, <em>T-BME</em>, <em>T-IM</em>, <em>T-UFFC</em>, <em>T-MRB</em>, <em>IEEE Sensors Journal</em>, <em>IJMRCAS</em></li>
+        <li>
+          Journals: <em>Nature Machine Intelligence</em>, <em>Nature Communications</em>, <em>IEEE Transactions on Robotics (T-RO)</em>,
+          <em>IEEE Reviews in Biomedical Engineering</em>, <em>T-ASE</em>, <em>T-MECH</em>, <em>T-IE</em>, <em>RA-L</em>, <em>T-BME</em>,
+          <em>T-IM</em>, <em>T-UFFC</em>, <em>T-MRB</em>, <em>IEEE Sensors Journal</em>, <em>IJMRCAS</em>
+        </li>
         <li>Conferences: ICRA (2015–2016, 2020–2023); IROS (2017, 2021–2023)</li>
       </ul>
     {% endif %}
 
-    
-
-    {% if page.page_id == "about" %}
-      <h2><a style="color: #016fc9ff; font-weight: bold;">Invited Talks</a> </h2>
-      <hr style="margin-top: 0.5rem; margin-bottom: 1rem; border: 0; border-top: 1px solid #ccc;">    
+    {% if page.page_id == 'about' %}
+      <h2><a style="color: #016fc9ff; font-weight: bold;">Invited Talks</a></h2>
+      <hr style="margin-top: 0.5rem; margin-bottom: 1rem; border: 0; border-top: 1px solid #ccc;">
       <ul>
         <!-- 2025 -->
         <li><strong>2025.06</strong> — Hamlyn Symposium 2025, <em>Robotic Focused Ultrasound Workshop</em> (hosted by Prof. Arianna Menciassi)</li>
@@ -121,31 +134,41 @@ layout: default
         <li><strong>2025.03</strong> — UTokyo–TUM Annual Workshop (organized by Prof. Tim Lueth & Prof. Ichiro Sakuma)</li>
         <li><strong>2025.03</strong> — Podcast Interview: <em>“AI-ready Healthcare”</em> (hosted by Prof. Anirban Mukhopadhyay), Spotify</li>
         <!-- 2024 -->
-        <li><strong>2024.12</strong> — Department of Mechanical and Aerospace Engineering, <em>The University of Manchester</em> (Prof. Andrew Weightman)</li>
+        <li>
+          <strong>2024.12</strong> — Department of Mechanical and Aerospace Engineering, <em>The University of Manchester</em> (Prof. Andrew
+          Weightman)
+        </li>
         <li><strong>2024.11</strong> — Department of Mechanical Engineering, <em>The University of Hong Kong</em></li>
         <li><strong>2024.11</strong> — <em>Visual Intelligence – International Researcher Forum</em></li>
         <li><strong>2024.10</strong> — <em>6th Sino-German Symposium on Intelligent Robots (SGIR)</em>, Frankfurt, Germany</li>
         <li><strong>2024.06</strong> — School of Instrument Science and Engineering, <em>Southeast University</em> (Prof. Lifeng Zhu)</li>
         <li><strong>2024.05</strong> — <em>2nd ICRA RAMI Workshop</em>, Yokohama, Japan (Link)</li>
-        <li><strong>2024.05</strong> — Department of Mechanical and Automation Engineering (MAE), <em>CUHK</em> (Prof. Xiangyu Chu & Prof. Samuel Au)</li>
+        <li>
+          <strong>2024.05</strong> — Department of Mechanical and Automation Engineering (MAE), <em>CUHK</em> (Prof. Xiangyu Chu & Prof. Samuel Au)
+        </li>
         <li><strong>2024.04</strong> — Hamlyn Centre, <em>Imperial College London</em> (Prof. Ferdinando Rodriguez y Baena)</li>
         <li><strong>2024.04</strong> — Department of Bioengineering, <em>Imperial College London</em> (Prof. Mengxing Tang)</li>
         <li><strong>2024.03</strong> — School of Informatics, <em>The University of Edinburgh</em></li>
         <li><strong>2024.04</strong> — Department of Bioengineering, <em>Politecnico di Milano</em> (Prof. Elena De Momi) (Link)</li>
         <!-- 2023 -->
-        <li><strong>2023.12</strong> — Biomedical Engineering Department, <em>University of Science and Technology of China</em> (Prof. Kevin Zhou)</li>
+        <li>
+          <strong>2023.12</strong> — Biomedical Engineering Department, <em>University of Science and Technology of China</em> (Prof. Kevin Zhou)
+        </li>
         <li><strong>2023.11</strong> — <em>The Sino-German Medical Artificial Intelligence Symposium</em> (Prof. Kuangyu Shi) (Link)</li>
-        <li><strong>2023.10</strong> — Department of Electrical and Computer Engineering, <em>University of British Columbia</em> (Prof. Tim Salcudean)</li>
+        <li>
+          <strong>2023.10</strong> — Department of Electrical and Computer Engineering, <em>University of British Columbia</em> (Prof. Tim Salcudean)
+        </li>
         <li><strong>2023.08</strong> — Department of Electrical and Computer Engineering, <em>University of Alberta</em> (Prof. Mahdi Tavakoli)</li>
         <li><strong>2023.06</strong> — Shenzhen Institute of Advanced Technology (SIAT), Chinese Academy of Sciences (Prof. Ying Hu)</li>
         <li><strong>2023.06</strong> — <em>1st RAMI Workshop @ ICRA 2023</em>, London (Link)</li>
         <li><strong>2023.06</strong> — The First Affiliated Hospital, <em>Sun Yat-Sen University</em> (Prof. Wei Wang)</li>
         <li><strong>2023.04</strong> — School of Electronic and Electrical Engineering, <em>University of Leeds</em> (Prof. Pietro Valdastri)</li>
         <li><strong>2023.02</strong> — Institute of Medical Informatics, <em>University of Lübeck</em> (online) (Prof. Floris Ernst)</li>
-        <li><strong>2023.02</strong> — The Robotics Institute, <em>Carnegie Mellon University</em> (online) (Prof. John Galeotti & Prof. Howie Choset)</li>
+        <li>
+          <strong>2023.02</strong> — The Robotics Institute, <em>Carnegie Mellon University</em> (online) (Prof. John Galeotti & Prof. Howie Choset)
+        </li>
       </ul>
     {% endif %}
-
 
     <!-- Social -->
     {% if page.social %}
@@ -155,8 +178,6 @@ layout: default
         <div class="contact-note">{{ site.data[site.active_lang].strings.contact_note }}</div>
       </div>
     {% endif %}
-
-
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=false %}

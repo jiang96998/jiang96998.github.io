@@ -4,6 +4,7 @@ layout: page
 title: News
 permalink: /news/
 ---
+
 ---
 
 {% assign items = site.news | sort: 'date' | reverse %}
