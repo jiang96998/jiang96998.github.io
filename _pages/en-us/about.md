@@ -3,16 +3,16 @@ page_id: about
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>The University of Hong Kong</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
   image: jzl.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>xxxxxx</p>
-    <p>123 your address street</p>
-    <p>Hong Kong, State 12345</p>
+    <p>HW 7-04, Haking Wong Building</p>
+    <p>Pokfulam Road </p>
+    <p>Hong Hong SAR, China</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
