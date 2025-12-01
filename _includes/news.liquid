@@ -15,9 +15,11 @@
           {% assign news_limit = news_size %}
         {% endif %}
         {% for item in news limit: news_limit %}
-          <tr>
-            <th scope="row" style="width: 20%">{% include date_format.liquid format='short' date=item.date %}</th>
-            <td>
+          <tr style="line-height: 1.2;">
+            <th scope="row" style="width: 20%; padding-top: 2px; padding-bottom: 2px;">
+              {% include date_format.liquid format='short' date=item.date %}
+            </th>
+            <td style="padding-top: 2px; padding-bottom: 2px;">
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}
