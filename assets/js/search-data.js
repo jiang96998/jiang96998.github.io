@@ -41,13 +41,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/multi-language-al-folio/projects/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation menu",
-          handler: () => {
-            window.location.href = "/multi-language-al-folio/repositories/";
-          },
         },{id: "nav-cv",
           title: "cv",
           description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
@@ -443,24 +436,13 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
-          section: "News",},{id: "news-um-anúncio-simples-em-uma-linha",
-          title: 'Um anúncio simples em uma linha.',
-          description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/multi-language-al-folio/news/en-us/announcement_2/";
-            },},{id: "news-um-anúncio-longo-com-detalhes",
-          title: 'Um anúncio longo com detalhes',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/multi-language-al-folio/news/pt-br/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-um-anúncio-simples-em-uma-linha-com-markdown-emoji-sparkles-smile",
-          title: 'Um anúncio simples em uma linha com Markdown emoji! :sparkles: :smile:',
           description: "",
           section: "News",},{id: "projects-project-7",
           title: 'project 7',
