@@ -55,13 +55,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/multi-language-al-folio/teaching/";
           },
-        },{id: "nav-people",
-          title: "People",
-          description: "members of the lab or group",
-          section: "Navigation menu",
-          handler: () => {
-            window.location.href = "/multi-language-al-folio/people/";
-          },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
               description: "",
