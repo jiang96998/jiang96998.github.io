@@ -5,11 +5,10 @@ title: About
 permalink: /
 # subtitle: <a href='#'>The University of Hong Kong</a>. <a href='#'>The University of Hong Kong</a>. Motto. Etc.
 subtitle: |
-  Assistant Professor <br>
-  Director of <a href='https://miroc.hku.hk'>Medical Intelligence and Robotic Cognition (MIRoC) Lab</a> <br>
-  <a href='https://me.hku.hk'>Department of Mechanical Engineering</a> <br>
-  <a href='https://www.hku.hk'>The University of Hong Kong</a> <br>
-  <a href='mailto:zljiang@hku.hk'>zljiang@hku.hk</a>
+  **Assistant Professor in Robotics and AI** <br>
+  <a href='https://me.hku.hk'>Department of Mechanical Engineering</a>, <a href='https://www.hku.hk'>The University of Hong Kong</a> <br>
+  Director of <a href='https://miroc.hku.hk'>Medical Intelligence and Robotic Cognition (MIRoC) Lab</a>, HKU ME <br>
+  **Email:** <a href="mailto:zljiang@hku.hk">zljiang@hku.hk</a>
 
 profile:
   align: right
