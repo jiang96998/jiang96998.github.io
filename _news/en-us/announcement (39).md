@@ -5,4 +5,5 @@ inline: true
 related_posts: false
 title: "3 papers accepted by MICCAI 2025"
 ---
+
 3 papers accepted by MICCAI 2025, Daejeon

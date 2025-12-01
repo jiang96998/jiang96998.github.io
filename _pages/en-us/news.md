@@ -5,14 +5,11 @@ title: News
 permalink: /news/
 ---
 
-
 <div style="text-align:center;">
   <hr style="width:40%; border:1px solid #ccc;">
 </div>
 
 {% include news.liquid %}
-
-
 
 <hr>
 
@@ -22,7 +19,9 @@ permalink: /news/
 {% assign groups = items | group_by_exp: 'item', 'item.date | date: "%Y"' %}
 
 {% for year in groups %}
+
 ### {{ year.name }}
+
 <ul>
   {% for item in year.items %}
     <li>
