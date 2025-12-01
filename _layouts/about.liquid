@@ -41,9 +41,38 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">{{ site.data[site.active_lang].strings.news }}</a>
+      <h2
+        style="
+          color: #006e3c;
+          position: relative;
+          padding-bottom: 4px;
+          margin-bottom: 12px;
+        "
+      >
+        <a
+          href="{{ '/news/' | relative_url }}"
+          style="color: inherit; text-decoration: none;"
+        >
+          {{ site.data[site.active_lang].strings.news }}
+        </a>
+
+        <span
+          style="
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            border-bottom: 1.5px solid #ccc;
+            display: block;
+          "
+        ></span>
       </h2>
+      {% 
+      <h2>
+        <h2 style="border-bottom: 2px solid rgba(0,0,0,0.1); padding-bottom: 6px; margin-bottom: 14px;">
+        {% <a href="{{ '/news/' | relative_url }}" style="color: inherit">{{ site.data[site.active_lang].strings.news }}</a> %}
+      </h2> %}
       {% include news.liquid limit=true %}
     {% endif %}
 
