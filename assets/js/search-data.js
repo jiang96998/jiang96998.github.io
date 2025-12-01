@@ -15,13 +15,13 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation menu",
     handler: () => {
       window.location.href = "/multi-language-al-folio/";
     },
   },{id: "nav-blog",
-          title: "blog",
+          title: "Blog",
           description: "a simple whitespace theme for academics",
           section: "Navigation menu",
           handler: () => {
@@ -35,7 +35,7 @@ ninja.data = [{
             window.location.href = "/multi-language-al-folio/publications/";
           },
         },{id: "nav-projects",
-          title: "projects",
+          title: "Projects",
           description: "A growing collection of your cool projects.",
           section: "Navigation menu",
           handler: () => {
@@ -49,14 +49,14 @@ ninja.data = [{
             window.location.href = "/multi-language-al-folio/cv/";
           },
         },{id: "nav-teaching",
-          title: "teaching",
+          title: "Teaching",
           description: "Materials for courses you taught. Replace this text with your description.",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/multi-language-al-folio/teaching/";
           },
         },{id: "nav-people",
-          title: "people",
+          title: "People",
           description: "members of the lab or group",
           section: "Navigation menu",
           handler: () => {
@@ -428,12 +428,7 @@ ninja.data = [{
             window.location.href = "/multi-language-al-folio/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "",handler: () => {
-              window.location.href = "/multi-language-al-folio/books/en-us/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
+      },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
