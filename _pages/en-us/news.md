@@ -29,9 +29,8 @@ permalink: /news/
   line-height: 1.3;
 }
 </style>
+
 ---
-
-
 
 {% include news.liquid %}
 
