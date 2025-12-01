@@ -17,7 +17,8 @@ profile:
   more_info: >
     <p>HW 7-04, Haking Wong Building</p>
     <p>Pokfulam Road, HK SAR, China </p>
-    # <p>Hong Hong SAR, China</p>
+
+# <p>Hong Hong SAR, China</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
