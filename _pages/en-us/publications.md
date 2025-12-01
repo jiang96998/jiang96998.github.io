@@ -1,5 +1,5 @@
 ---
-page_id: publications
+page_id: Publications
 layout: page
 permalink: /publications/
 title: publications
