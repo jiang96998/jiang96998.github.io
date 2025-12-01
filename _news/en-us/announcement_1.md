@@ -34,7 +34,7 @@ Dec (2023): Will co-organize a workshop on 2nd Robotic-Assisted Medical Imaging 
 01 Sep (2023): Serves as an Associate Editor for ICRA2024
 01 Aug (2023): 1 paper accepted by Medical Image Analysis
 23 Jun (2023): 1 paper accepted by MICCAI2023
-22 Jun (2023): 1 paper accepted by  Medical Image Analysis
+22 Jun (2023): 1 paper accepted by Medical Image Analysis
 21 Jun (2023): 2 paper accepted by IROS2023
 09 May (2023): 1 paper accepted by IEEE Robotics and Automation Letters
 08 May (2023): 1 paper accepted by IEEE Transactions on Automation Science and Engineering
