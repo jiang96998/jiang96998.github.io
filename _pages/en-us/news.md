@@ -9,14 +9,6 @@ nav: true
 nav_order: 4
 ---
 
-
-
-
-
-
-
-
-
 ---
 
 {% assign items = site.news | sort: 'date' | reverse %}
