@@ -10,7 +10,6 @@ subtitle: |
   Director of <a href='https://miroc.hku.hk'>Medical Intelligence and Robotic Cognition (MIRoC) Lab</a>, HKU ME <br>
   <b>Email:</b> <a href="mailto:zljiang@hku.hk">zljiang@hku.hk</a>
 
-
 profile:
   align: right
   image: jzl.jpg
