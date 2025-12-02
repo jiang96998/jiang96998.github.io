@@ -6,4 +6,4 @@ related_posts: false
 title: "1 paper accepted by IEEE T-ASE"
 ---
 
-1 paper accepted by IEEE Transactions on Automation Science and Engineering
+1 paper accepted by **_IEEE Transactions on Automation Science and Engineering_**

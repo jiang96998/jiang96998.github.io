@@ -6,4 +6,4 @@ related_posts: false
 title: "Co-organizing RAMI workshop at ICRA2023"
 ---
 
-Will co-organize a workshop on Robotic-Assisted Medical Imaging at ICRA2023
+Will co-organize a workshop on **Robotic-Assisted Medical Imaging** at **_ICRA2023_**

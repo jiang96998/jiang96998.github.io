@@ -6,4 +6,4 @@ related_posts: false
 title: "1 paper accepted by IEEE RA-L"
 ---
 
-1 paper directly accepted by IEEE Robotics and Automation Letters
+1 paper directly accepted by **_IEEE Robotics and Automation Letters_**

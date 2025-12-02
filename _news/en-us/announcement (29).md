@@ -6,4 +6,4 @@ related_posts: false
 title: "Guest Editor for TRO special collection"
 ---
 
-Serving as Guest Editor for the TRO special collection on Robot-Assisted Medical Imaging
+Serving as **Guest Editor** for the **_TRO_** special collection on Robot-Assisted Medical Imaging

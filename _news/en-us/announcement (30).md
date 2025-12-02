@@ -6,4 +6,4 @@ related_posts: false
 title: "3rd RAMI workshop accepted by ICRA2025"
 ---
 
-3rd Robotic-Assisted Medical Imaging workshop accepted by ICRA2025, Atlanta
+3rd **Robotic-Assisted Medical Imaging workshop** accepted by **_ICRA2025_**, Atlanta

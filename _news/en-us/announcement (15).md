@@ -6,4 +6,4 @@ related_posts: false
 title: "2 papers accepted by IROS2023"
 ---
 
-2 papers accepted by IROS2023
+2 papers accepted by **_IROS2023_**

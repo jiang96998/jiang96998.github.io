@@ -6,4 +6,4 @@ related_posts: false
 title: "CFP for IEEE TRO RAMI special issue released"
 ---
 
-The CFP for IEEE TRO RAMI special issue has been released in RAS website.
+The CFP for **_IEEE TRO_** RAMI special issue has been released in RAS website.

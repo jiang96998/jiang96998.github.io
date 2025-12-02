@@ -6,4 +6,4 @@ related_posts: false
 title: "1 paper accepted by IJRR"
 ---
 
-1 paper accepted by The International Journal of Robotics Research
+1 paper accepted by The **_International Journal of Robotics Research (IJRR)_**

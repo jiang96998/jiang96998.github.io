@@ -6,4 +6,4 @@ related_posts: false
 title: "1 paper accepted by Advanced Intelligent Systems"
 ---
 
-1 paper accepted by Advanced Intelligent Systems
+1 paper accepted by **_Advanced Intelligent Systems_**

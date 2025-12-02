@@ -1,7 +1,7 @@
 {% for social in site.data.socials %}
   {% case social[0] %}
     {% when 'scholar_userid' %}
-      <a href="{{ social[1] }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://scholar.google.com/citations?user={{ social[1] }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
     {% when 'youtube_id' %}
       <a href="{{ social[1] }}" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
     {% when 'linkedin_username' %}

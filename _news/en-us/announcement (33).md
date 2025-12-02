@@ -6,4 +6,4 @@ related_posts: false
 title: "1 paper accepted by ICRA2025"
 ---
 
-1 paper accepted by ICRA2025
+1 paper accepted by **_ICRA2025_**

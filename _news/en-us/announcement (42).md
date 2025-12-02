@@ -6,4 +6,4 @@ related_posts: false
 title: "I will serve as an Associate Editor for ICRA2026"
 ---
 
-I will serve as an Associate Editor for ICRA2026
+I will serve as an **Associate Editor** for **_ICRA2026_**

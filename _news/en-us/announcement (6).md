@@ -6,4 +6,4 @@ related_posts: false
 title: "1 paper accepted by IEEE TIE"
 ---
 
-1 paper accepted for publication in IEEE Transactions on Industrial Electronics
+1 paper accepted for publication in **_IEEE Transactions on Industrial Electronics_**

@@ -6,4 +6,4 @@ related_posts: false
 title: "1 paper accepted by MIA"
 ---
 
-1 paper accepted by Medical Image Analysis
+1 paper accepted by **_Medical Image Analysis_**

@@ -6,4 +6,4 @@ related_posts: false
 title: "Associate Editor for ICRA2025"
 ---
 
-Serves as an Associate Editor for ICRA2025
+Serves as an **Associate Editor** for **_ICRA2025_**

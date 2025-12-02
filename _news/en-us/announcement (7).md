@@ -6,4 +6,4 @@ related_posts: false
 title: "RA-L paper (IROS2021)"
 ---
 
-1 paper accepted by IEEE RA-L (presented at IROS2021)
+1 paper accepted by **_IEEE RA-L_** (presented at **_IROS2021_**)

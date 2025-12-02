@@ -6,4 +6,4 @@ related_posts: false
 title: "1 paper early accepted by IPCAI 2025"
 ---
 
-1 paper early accepted by IPCAI 2025
+1 paper early accepted by **_IPCAI 2025_**

@@ -6,4 +6,4 @@ related_posts: false
 title: "2 papers accepted by IROS 2025"
 ---
 
-2 papers accepted by IROS 2025, Hangzhou
+2 papers accepted by **_IROS 2025_**, Hangzhou
