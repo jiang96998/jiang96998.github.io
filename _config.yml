@@ -9,12 +9,12 @@ last_name: Jiang
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://george-gca.github.io # the base hostname & protocol for your site
-baseurl: /multi-language-al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
+# url: https://george-gca.github.io # the base hostname & protocol for your site
+# baseurl: /multi-language-al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
 
 # github server
-# url: https://jiang96998.github.io # the base hostname & protocol for your site
-# baseurl: “” # the subpath of your site, e.g. /blog/. Leave blank for root
+url: https://jiang96998.github.io # the base hostname & protocol for your site
+baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
 
 # HKU server
 # url: https://meweb.hku.hk # the base hostname & protocol for your site
