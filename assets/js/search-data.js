@@ -428,8 +428,8 @@ ninja.data = [{
           section: "News",},{id: "news-miccai-2023-best-paper-runner-up-for-mi-segnet",
           title: 'MICCAI 2023 Best paper Runner Up for MI-SegNet',
           description: "",
-          section: "News",},{id: "news-1-paper-accepted-by-the-international-journal-of-robotics-research",
-          title: '1 paper accepted by The International Journal of Robotics Research',
+          section: "News",},{id: "news-1-paper-accepted-by-the-international-journal-of-robotics-research-ijrr",
+          title: '1 paper accepted by The International Journal of Robotics Research (IJRR)',
           description: "",
           section: "News",},{id: "news-will-co-organize-a-workshop-on-2nd-robotic-assisted-medical-imaging-at-icra2024",
           title: 'Will co-organize a workshop on 2nd Robotic-Assisted Medical Imaging at ICRA2024',
@@ -477,7 +477,7 @@ ninja.data = [{
           title: 'The CFP for IEEE TRO RAMI special issue has been released in RAS...',
           description: "",
           section: "News",},{id: "news-talking-robotic-ultrasound-at-ai-ready-healthcare-podcast-link",
-          title: 'Talking robotic ultrasound at “AI-ready Healthcare” Podcast. link',
+          title: 'Talking robotic ultrasound at “AI-ready Healthcare” Podcast. Link',
           description: "",
           section: "News",},{id: "news-2-papers-accepted-by-iros-2025-hangzhou",
           title: '2 papers accepted by IROS 2025, Hangzhou',
@@ -493,6 +493,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-i-will-serve-as-an-associate-editor-for-icra2026",
           title: 'I will serve as an Associate Editor for ICRA2026',
+          description: "",
+          section: "News",},{id: "news-join-hku-me-and-start-medical-intelligence-and-robotic-recognition-miroc-lab",
+          title: 'Join HKU ME, and start Medical Intelligence and Robotic Recognition (MIRoC) Lab',
           description: "",
           section: "News",},{id: "news-i-will-serve-as-an-area-chair-for-ipcai2026",
           title: 'I will serve as an Area Chair for IPCAI2026',
@@ -567,7 +570,7 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=https://scholar.google.com/citations?user=X41OzcYAAAAJ&hl=en", "_blank");
+          window.open("https://scholar.google.com/citations?user=X41OzcYAAAAJ", "_blank");
         },
       },{
         id: 'social-youtube',
