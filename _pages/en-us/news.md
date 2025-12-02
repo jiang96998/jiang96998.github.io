@@ -3,7 +3,19 @@ page_id: news
 layout: page
 title: News
 permalink: /news/
+title: News
+description: all news
+nav: true
+nav_order: 4
 ---
+
+
+
+
+
+
+
+
 
 ---
 
