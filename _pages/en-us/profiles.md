@@ -5,7 +5,7 @@ permalink: /people/
 title: Teams
 description: members of the lab or group
 nav: true
-nav_order: 2
+nav_order: 3
 # profiles:
 #   # Profile 1
 #   - align: right
