@@ -4,8 +4,10 @@ layout: profiles
 permalink: /people/
 title: Teams
 description: members of the lab or group
-nav: true
+nav: false 
 nav_order: 3
+
+
 # profiles:
 #   # Profile 1
 #   - align: right
@@ -25,5 +27,5 @@ nav_order: 3
 #     more_info: >
 #       <p>555 your office number</p>
 #       <p>123 your address street</p>
-#       <p>Your City, State 12345</p>
----
+#       <p>Your City, State 12345</p> -->
+# ---
