@@ -27,9 +27,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/zljiang/publications/";
           },
-        },{id: "nav-teams",
-          title: "Teams",
-          description: "members of the lab or group",
+        },{id: "nav-team",
+          title: "Team",
+          description: "",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/zljiang/people/";
