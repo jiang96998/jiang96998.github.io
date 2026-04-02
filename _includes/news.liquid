@@ -19,7 +19,7 @@
             <th scope="row" style="width: 20%; padding-top: 2px; padding-bottom: 2px;">
               {% include date_format.liquid format='short' date=item.date %}
             </th>
-            <td style="padding-top: 2px; padding-bottom: 2px;">
+            <td style="padding-top: 4px; padding-bottom: 4px;">
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}

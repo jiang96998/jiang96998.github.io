@@ -6,4 +6,4 @@ related_posts: false
 title: "Join HKU ME"
 ---
 
-Join **HKU ME**, and start Medical Intelligence and Robotic Recognition (**MIRoC**) Lab
+Joined **HKU ME**, and start Medical Intelligence and Robotic Recognition (**MIRoC**) Lab

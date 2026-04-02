@@ -6,4 +6,4 @@ related_posts: false
 title: "AI-ready Healthcare Podcast"
 ---
 
-Talking robotic ultrasound at **“AI-ready Healthcare” Podcast**. <a href="https://open.spotify.com/episode/22M8xRoCbHFC3419C0ftNK" style="color: #ee8701ff; font-weight: bold; text-decoration: underline;">Link</a>
+Talking robotic ultrasound at **“AI-ready Healthcare” Podcast**. <a href="https://open.spotify.com/episode/22M8xRoCbHFC3419C0ftNK" style="color: #0501eeff; font-weight: bold; text-decoration: underline;">Link</a>

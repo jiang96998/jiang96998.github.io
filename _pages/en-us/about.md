@@ -6,8 +6,8 @@ permalink: /
 # subtitle: <a href='#'>The University of Hong Kong</a>. <a href='#'>The University of Hong Kong</a>. Motto. Etc.
 subtitle: |
   <b>Assistant Professor in Robotics and AI</b> <br>
-  <a href='https://me.hku.hk'>Department of Mechanical Engineering</a>, <a href='https://www.hku.hk'>The University of Hong Kong</a> <br>
-  Director of <a href='https://miroc.hku.hk'>Medical Intelligence and Robotic Cognition (MIRoC) Lab</a>, HKU ME <br>
+  <a href='https://mech.hku.hk'>Department of Mechanical Engineering</a>, <a href='https://www.hku.hk'>The University of Hong Kong</a> <br>
+  Director of <a href='https://meweb.hku.hk/zljiang/'>Medical Intelligence and Robotic Cognition (MIRoC) Lab</a> <br>
   <b>Email:</b> <a href="mailto:zljiang@hku.hk">zljiang@hku.hk</a>
 
 profile:

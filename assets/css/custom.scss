@@ -1,0 +1,32 @@
+
+
+
+/* 控制所有社交图标大小（含 FontAwesome + Academicons + SVG） */
+
+.contact-icons a i {
+  font-size: 2.5rem !important;   /* 想要的大小 */
+  line-height: 0.2 !important;
+}
+
+.contact-icons a svg {
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+}
+
+/* 让图标之间间距更美观（可选） */
+.contact-icons a {
+  margin: 0 1px !important;
+}
+
+/* 缩小社交栏的上下行距 */
+.social {
+  margin-top: 0.1rem !important;
+  margin-bottom: 0.1rem !important;
+}
+
+/* 缩小图标本身的高度导致的“行高空白” */
+.contact-icons a i,
+.contact-icons a svg {
+  line-height: 0.8 !important;
+  vertical-align: middle !important;
+}
