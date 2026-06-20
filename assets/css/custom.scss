@@ -36,14 +36,28 @@
 /* teams */
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);  // 4 columns
-  gap: 24px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
   margin-top: 1.5rem;
 }
 
+@media (max-width: 900px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .member {
+  width: 100%;
   text-align: center;
 }
+
 
 .member img {
   width: 100%;
@@ -89,4 +103,59 @@ h2 {
   border-bottom: 2px solid #eee;
   padding-bottom: 6px;
   margin-top: 2rem;
+}
+
+
+
+// -------------------- gallery
+
+.gallery-modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.9);
+  text-align: center;
+}
+
+/* images */
+.gallery-modal img {
+  max-width: 70%;
+  margin-top: 60px;
+  display: none;
+}
+
+/* arrows */
+.arrow {
+  position: absolute;
+  top: 50%;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  transform: translateY(-50%);
+  opacity: 0;              // ❗默认隐藏
+  transition: opacity 0.2s;
+}
+
+/* left/right */
+.arrow.left { left: 20px; }
+.arrow.right { right: 20px; }
+
+/* hover 才显示 */
+.gallery-modal:hover .arrow {
+  opacity: 1;
+}
+
+/* close button */
+.close {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
 }

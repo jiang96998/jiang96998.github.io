@@ -20,19 +20,26 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/zljiang/";
     },
-  },{id: "nav-publications",
+  },{id: "nav-team",
+          title: "Team",
+          description: "",
+          section: "Navigation menu",
+          handler: () => {
+            window.location.href = "/zljiang/people/";
+          },
+        },{id: "nav-publications",
           title: "Publications",
           description: "publications by categories in reversed chronological order.",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/zljiang/publications/";
           },
-        },{id: "nav-team",
-          title: "Team",
+        },{id: "nav-gallery",
+          title: "Gallery",
           description: "",
           section: "Navigation menu",
           handler: () => {
-            window.location.href = "/zljiang/people/";
+            window.location.href = "/zljiang/gallery/";
           },
         },{id: "nav-news",
           title: "News",
