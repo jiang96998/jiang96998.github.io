@@ -37,8 +37,8 @@ nav_order: 2
 </div>
 
 <div class="member">
-  <img src="{{ '/assets/img/team/xx.jpg' | relative_url }}">
-  <h4>  <a href="https://meweb.hku.hk/zljiang/" target="_blank">  Yameng Zhang  </a></h4>
+  <img src="{{ '/assets/img/team/5-yameng.jpg' | relative_url }}">
+  <h4>  <a href="https://yamengzzz.github.io/yameng-personal-web/" target="_blank">  Yameng Zhang  </a></h4>
   <p>yamengzh@hku.hk</p>
   <p>2025.10 -</p>
   <!-- <div class="links">
@@ -52,8 +52,8 @@ nav_order: 2
 
 <div class="team-grid">
 <div class="member">
-  <img src="{{ '/assets/img/team/xx.jpg' | relative_url }}">
-  <h4>  <a href="https://meweb.hku.hk/zljiang/" target="_blank">  Yao Zhong  </a></h4>
+  <img src="{{ '/assets/img/team/4-zhongyao.jpg' | relative_url }}">
+  <h4>  <a href="https://hnyao.github.io/" target="_blank">  Yao Zhong  </a></h4>
   <p>yao.zhong@connect.hku.hk</p>
   <p>PhD Student, 2026.01 - </p>
   <!-- <div class="links">
