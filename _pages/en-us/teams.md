@@ -66,8 +66,8 @@ nav_order: 2
 </div>
 
 <div class="member">
-  <img src="{{ '/assets/img/team/xx.jpg' | relative_url }}">
-  <h4>  <a href="https://meweb.hku.hk/zljiang/" target="_blank">  Chenwei Wang </a></h4>
+  <img src="{{ '/assets/img/team/6-chenwei.jpeg' | relative_url }}">
+  <h4>  <a href="https://wwccww.github.io/" target="_blank">  Chenwei Wang </a></h4>
   <p>chenweiwang@connect.hku.hk</p>
   <p>PhD Student, 2026.01 - </p>
   <!-- <div class="links">
@@ -138,8 +138,8 @@ nav_order: 2
 
 
 <div class="member">
-  <img src="{{ '/assets/img/team/xx.jpg' | relative_url }}">
-  <h4>  Pei Liu </h4>
+  <img src="{{ '/assets/img/team/7-pei.png' | relative_url }}">
+  <h4>  <a href="https://ningmeng0903.github.io/" target="_blank">  Pei Liu </a></h4>
   <p>pei.liu@tum.de</p>
   <p>Visitor, TUM MS, 2026.05 - </p>
   <!-- <div class="links">
