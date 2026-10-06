@@ -79,7 +79,7 @@ nav_order: 2
   <img src="{{ '/assets/img/team/3-zhongkai.jpg' | relative_url }}">
   <h4>  <a href="https://v373.github.io/blog/" target="_blank">  Zhongkai Zhang </a></h4>
   <p>zhang373@hku.hk</p>
-  <p>RA, 2026.02 - </p>
+  <p>RA, 2026.02 - 2026.08 </p>
   <p>PhD Student, 2026.08 - </p>
   <!-- <div class="links">
     <a href="mailto:">Email</a>
@@ -88,9 +88,11 @@ nav_order: 2
 
 
 <div class="member">
-  <img src="{{ '/assets/img/team/xx.jpg' | relative_url }}">
-  <h4>  <a href="https://meweb.hku.hk/zljiang/" target="_blank">  Xinyue Liang </a></h4>
-  <p>PhD Student, 2026.09 - </p>
+  <img src="{{ '/assets/img/team/8-lxy.jpg' | relative_url }}">
+  <h4>  <a href="https://xy-liang22.github.io" target="_blank">  Xinyue Liang </a></h4>
+  <p>lxy1@hku.hk</p>
+  <p>RA, 2026.09 -  </p>
+  <p>PhD Student, incoming </p>
   <!-- <div class="links">
     <a href="mailto:">Email</a>
   </div> -->
@@ -99,13 +101,14 @@ nav_order: 2
 <div class="member">
   <img src="{{ '/assets/img/team/xx.jpg' | relative_url }}">
   <h4>  <a href="https://meweb.hku.hk/zljiang/" target="_blank">  Siyao Hao </a></h4>
+  <p>siyao.hao@connect.hku.hk</p>
   <p>MPhil Student, 2026.09 -</p>
   <!-- <div class="links">
     <a href="mailto:">Email</a>
   </div> -->
 </div>
 
-<div class="member">
+<!-- <div class="member">
   <img src="{{ '/assets/img/team/xx.jpg' | relative_url }}">
   <h4>  <a href="https://meweb.hku.hk/zljiang/" target="_blank">  Fenglin Shi </a></h4>
   <p>shifenglin@connect.hku.hk</p>
@@ -113,9 +116,8 @@ nav_order: 2
   <!-- <div class="links">
     <a href="mailto:">Email</a>
   </div> -->
-</div>
-
 </div> 
+
 
 
 ## RA / Intern / Visiting Students
@@ -149,6 +151,18 @@ nav_order: 2
 
 <div class="member">
   <img src="{{ '/assets/img/team/xx.jpg' | relative_url }}">
+  <h4>  <a href="https://ezoixx130.github.io/" target="_blank"> Han Zhang </a></h4>
+  <p>hzhanghk@hku.hk</p>
+  <p>RA, 2026.09 - </p>
+  <!-- <div class="links">
+    <a href="mailto:">Email</a>
+  </div> -->
+</div>
+
+  
+
+<div class="member">
+  <img src="{{ '/assets/img/team/xx.jpg' | relative_url }}">
   <h4>  Jinyao Feng </h4>
   <p>harvey07@connect.hku.hk</p>
   <p>RA, HKU UG, 2026.02 - </p>
@@ -159,9 +173,30 @@ nav_order: 2
 
 <div class="member">
   <img src="{{ '/assets/img/team/xx.jpg' | relative_url }}">
-  <h4> F. Ruan </h4>
-  <p>UCSD UG @HKU SRP 2026</p>
-  <p>2026.06 - </p>
+  <h4>  M. Zhang </h4>
+  <p>Intern, BUPT UG </p>
+  <p>2026.07 - </p>
+  <!-- <div class="links">
+    <a href="mailto:">Email</a>
+  </div> -->
+</div>
+
+<div class="member">
+  <img src="{{ '/assets/img/team/xx.jpg' | relative_url }}">
+  <h4>  Y. Zhao </h4>
+  <p>HIT UG @ME Internship</p>
+  <p>2026.08 - </p>
+  <!-- <div class="links">
+    <a href="mailto:">Email</a>
+  </div> -->
+</div>
+
+
+<div class="member">
+  <img src="{{ '/assets/img/team/xx.jpg' | relative_url }}">
+  <h4> Y. Tan </h4>
+  <p>ICL UG @HKU SRP 2026</p>
+  <p>2026.06 - 2026.09</p>
   <!-- <div class="links">
     <a href="mailto:">Email</a>
   </div> -->
@@ -169,9 +204,9 @@ nav_order: 2
 
 <div class="member">
   <img src="{{ '/assets/img/team/xx.jpg' | relative_url }}">
-  <h4> Y. Tan </h4>
-  <p>ICL UG @HKU SRP 2026</p>
-  <p>2026.06 - </p>
+  <h4> F. Ruan </h4>
+  <p>UCSD UG @HKU SRP 2026</p>
+  <p>2026.06 - 2026.08</p>
   <!-- <div class="links">
     <a href="mailto:">Email</a>
   </div> -->
@@ -181,7 +216,7 @@ nav_order: 2
   <img src="{{ '/assets/img/team/xx.jpg' | relative_url }}">
   <h4> Z. Wang </h4>
   <p>THU UG @ME Internship</p>
-  <p>2026.07 - </p>
+  <p>2026.07 - 2026.08</p>
   <!-- <div class="links">
     <a href="mailto:">Email</a>
   </div> -->
